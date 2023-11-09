@@ -1,5 +1,5 @@
 //your JS code here. If required.
 function Change() {
-	const statusElement = document.getElementById("status");
-	statusElement.textContent = "Entered Metaverse";
+	const statusElement = document.querySelector("#status");
+	statusElement.innerHTML = "<h1>Entered Metaverse<h1>";
 }
